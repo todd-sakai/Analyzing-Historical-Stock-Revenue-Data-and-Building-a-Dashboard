@@ -9,5 +9,23 @@ This project pulls daily share prices with the `yfinance` API, scrapes quarterly
 
 Tesla's price rose with its revenue. GameStop's price jumped in January 2021 while its revenue was falling, so revenue does not explain that move.
 
+## Topics Covered
+
+- Pulling market data from an API
+- Web scraping HTML tables
+- Cleaning text values into numbers
+- Handling dates and time zones
+- Joining daily and quarterly time series (`merge_asof`)
+- Year-over-year growth and correlation
+- Dashboard-style charts with a shared date axis
+
+## Python Libraries Used
+
+- `yfinance`: daily share prices from Yahoo Finance
+- `requests`: downloading the revenue web pages
+- `BeautifulSoup` (`beautifulsoup4`): parsing the HTML tables
+- `pandas`: cleaning, merging and analysis
+- `matplotlib`: charts
+
 Files:
 - `Tesla_GameStop_Stock_vs_Revenue.ipynb`: Code and outputs

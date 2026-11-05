@@ -11,4 +11,3 @@ Tesla's price rose with its revenue. GameStop's price jumped in January 2021 whi
 
 Files:
 - `Tesla_GameStop_Stock_vs_Revenue.ipynb`: Code and outputs
-- `Stock Price vs Revenue - Todd Sakai.pdf`: Report without code

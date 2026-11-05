@@ -1,8 +1,6 @@
 # Stock Price vs. Revenue: Tesla and GameStop
 
-Final project for *Python Project for Data Science* (IBM Data Science Professional Certificate), by Todd Sakai.
-
-The project pulls daily share prices with the `yfinance` API, scrapes quarterly revenue from HTML tables with `requests` and BeautifulSoup, and plots price above revenue for Tesla and GameStop up to mid-2021. It then matches each quarter's revenue to the quarter-end share price to test whether price follows revenue.
+This project pulls daily share prices with the `yfinance` API, scrapes quarterly revenue from HTML tables with `requests` and BeautifulSoup, and plots price above revenue for Tesla and GameStop up to mid-2021. It then matches each quarter's revenue to the quarter-end share price to test whether price follows revenue.
 
 | Company | Correlation of revenue with quarter-end price | Mean year-over-year revenue growth, last 4 quarters |
 |---|---|---|
@@ -11,6 +9,6 @@ The project pulls daily share prices with the `yfinance` API, scrapes quarterly 
 
 Tesla's price rose with its revenue. GameStop's price jumped in January 2021 while its revenue was falling, so revenue does not explain that move.
 
-Files: `Tesla_GameStop_Stock_vs_Revenue.ipynb` (code and outputs) and `Stock Price vs Revenue - Todd Sakai.pdf` (report without code).
-
-Run it with Python 3, pandas, matplotlib, yfinance, requests and beautifulsoup4. It needs internet access, because it downloads prices from Yahoo Finance and revenue tables from IBM's course server.
+Files:
+- `Tesla_GameStop_Stock_vs_Revenue.ipynb`: Code and outputs
+- `Stock Price vs Revenue - Todd Sakai.pdf`: Report without code
